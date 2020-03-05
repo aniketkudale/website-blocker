@@ -1,0 +1,13 @@
+{
+    "name": "Website Blocker",
+    "version": "1.0.0",
+    "description": "Blocks websites based on domain names",
+    "background": { "scripts": ["block.js"] },
+    "options_page": "options.html",
+    "permissions": [
+        "webRequest", "webRequestBlocking",
+        "http://*/*", "https://*/*",
+        "storage"
+    ],
+    "manifest_version": 2
+}
